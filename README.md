@@ -18,5 +18,8 @@ We also noticed that using the price of the products instead of the quantity pur
 There is little missing data for the description of the products so we did not have to perform a lot of preprocessing and cleaning before being able to use this dataset.
 
 # A list of internal milestones up until project milestone 3
-- Represent all these economic relationships in graphs.
-- Construct clusters in these graphs which are intuitive economically and come naturally from the corresponding relationships.
+- Explore other methods of measuring the relationships among products such as the correlation among quantities sold as an alternative to measuring cross price elasticities of demand. Verify if one method is more intuitive than the other.
+2. Visualize the economic relationships in the form of a network. The weights of the edges can be the degree to which products are complementary/substitutable as measured by the method decided in step 1. To avoid a dense network, we plan to experiment with a few thresholds on the weight of the edges to determine what "counts" as a strong enough relationship.
+3. Explore methods of comparing the similarity of the types of goods bought between households of various income level. Such a method could include Jaccard similarity.
+4. Also visualize these relationships in a network (separate) where the node size can represent the income level and the weight of the edges represents the similarity in the basket of goods purchased between households.
+5. Construct clusters in these graphs to see if we can create an economically intuitive groups based on these relationships. For example, we may be able to cluster dairy products and cereal products naturally from the first network, which makes intuitive sense, or identify other surprising groups. From the second network, we may be able to identify patterns in how households of similar income levels consume similar goods.
