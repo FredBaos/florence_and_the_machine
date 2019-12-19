@@ -1,14 +1,12 @@
 # Applied Dunnhumby Analysis (ADA): Discovering the Economics of Food Purchases
 
 # Abstract
-Dunnhumby is a data science company focusing primarily on retail customer data. Inside a retail store, purchase decisions are affected by copious economic factors including the shoppers' income, how many children they have, and the way in which potentially complementary or competing products are organized and displayed. With information on the *household-level* transactions from 2,500 users over two years, Dunnhumby dataset provides ample opportunities to take the most detailed look at these interactions. In this project, we endeavor to make sense of this large dataset to understand what economic relationships are at play and provide potential users with a neat, interactive network to visualize these relationships.
+When people shop, their decisions are not purely random. Rather, people tend to keep in mind a list of items to purchase, which in turn creates an underlying economic relationships not only among products, but also between shoppers' characteristics such as income and their choices. In reality, there are challenges that tend to obscure these fundamental relationships. Retailers constantly bombard shoppers with tactics for impulse buying, let alone that people do occasionally just buy things on the fly. However, given data that spans sufficiently long time gathered from sufficiently many households, we can excavate economically relevant and intuitive consumption patterns with the right applied data analysis tools. Dunnhumby provides such a dataset with transaction records of over 275,000 unique backets of goods composed from hundreds of different commodities by more than 2,500 households in two years, which certainly offers promising opportunities to take a detailed look at interesting economics at play. In this project, we endeavor to understand how and why consumers make the purchasing decisions they do, and provide potential users with a neat, interactive network to visualize these relationships.
 
 # Research questions
-- How can we accurately measure the degree to which products are complementary or substitutable?
-- What kind of effect does household income and the presence of children have on food purchases?
-- What (kind of) products are affected and in what way?
-- Are there products whose consumption is not correlated with any of these factors?
-- What are some known and surprising complementary and substitutable products?
+- What are some of the most frequently/rarely co-purchased products?
+- What kind of economically intuitive communities arise from the co-purchase relationships among products?
+- Is a household's income or number of children correlated with its consumption of certain group of products in a statistically significant way?
 
 # Dataset
 In this project, we are using the Dunnhumby dataset. We expect to use primarily the data from the demographics, products and transactions tables to answer our questions. 
@@ -18,7 +16,7 @@ We also noticed that using the price of the products instead of the quantity pur
 There is little missing data for the description of the products so we did not have to perform a lot of preprocessing and cleaning before being able to use this dataset.
 
 # Contributions of all group members
-John: data crawling, preliminary data analysis, plotting graphs during data analysis, interactive plots for data story;
-Fred: data crawling, preliminary data analysis, plotting graphs during data analysis, setting up Jekyll website, interactive plots for data story;
-Caroline: problem formulation, writing up data story, preparing final presentation;
-Frank: preliminary data analysis, plotting graphs during data analysis, design of Jekyll website, interactive plots for data story.
+- John: data crawling, preliminary data analysis, plotting graphs during data analysis, interactive plots for data story
+- Fred: data crawling, preliminary data analysis, plotting graphs during data analysis, setting up Jekyll website, interactive plots for data story;
+- Caroline: problem formulation, writing up data story, preparing final presentation;
+- Frank: preliminary data analysis, plotting graphs during data analysis, design of Jekyll website, interactive plots for data story.
