@@ -16,7 +16,7 @@ We also noticed that using the price of the products instead of the quantity pur
 There is little missing data for the description of the products so we did not have to perform a lot of preprocessing and cleaning before being able to use this dataset.
 
 # Link to the data story
-The link to our data story is [here][https://fredbaos.github.io/].
+For the final report, we chose to tell a data story online in a [short blog](https://fredbaos.github.io/).
 
 # Contributions of all group members
 - John: data crawling, preliminary data analysis, plotting graphs during data analysis, interactive plots for data story
